@@ -34,6 +34,23 @@ h1, h2, h3{
     line-height: 17px;
 }
 
+.preparation {
+    position: relative;
+}
+
+.preparation .ingredients h2 {
+    margin-top: 48px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.preparation .ingredients h3 {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 32px;
+}
+
 .preparation .ingredients ul li {
     position: relative;
     line-height: 25px;
@@ -58,4 +75,80 @@ h1, h2, h3{
 
 .preparation .ingredients .text-bold {
     font-weight: 700;
+}
+
+.instructions h2 {
+    margin: 28px 0px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.custom-counter {
+    list-style-type: none;  
+    counter-reset: cachorro;
+}
+
+.custom-counter li {
+    counter-increment: cachorro;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.custom-counter li::before {
+    content: counter(cachorro);
+    position: absolute;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    background-color: #F2994A;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: bold;
+
+
+}
+
+.custom-counter p{
+    margin-left: 45px;
+}
+
+
+
+
+
+
+.preparation .prep-time {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 216px;
+    height: 367px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.preparation .prep-time ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.preparation .prep-time li {
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 20px;
+    width: 80px;    
+    white-space: nowrap;
+}
+
+.material-symbols-outlined {
+    margin-right: 13px;
 }

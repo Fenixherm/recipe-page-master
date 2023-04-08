@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://fenixherm.github.io/recipe-page-master/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/pblYOsOXIsKXAUe6eXRj">
       Solution
     </a>
     <span> | </span>
@@ -48,10 +48,10 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
   This is my first challenge, so it was fun.
 
 - What have you learned/improved?
-  How to use flex and grid a little bit better.
+  How to use  pseudo element on CSS a little bit better.
 
 - Your wisdom? :)
-  I'm still a begginner though, but I know a little bit of HTML and CSS. Still working on that.
+  I'm still a beginner though, but I know a little bit of HTML and CSS. Still working on that.
 
 
 ### Built With
@@ -77,7 +77,7 @@ To clone and run this application, you'll need [Git](https://github.com/Fenixher
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/Fenixherm/recipe-page-master.git
 
 
 ## Acknowledgements

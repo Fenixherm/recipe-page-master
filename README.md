@@ -51,7 +51,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
   How to use flex and grid a little bit better.
 
 - Your wisdom? :)
-  I'm still a begginner tough, but I know a little bit of HTML and CSS. Still working on that.
+  I'm still a begginner though, but I know a little bit of HTML and CSS. Still working on that.
 
 
 ### Built With
